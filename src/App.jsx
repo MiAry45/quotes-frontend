@@ -87,6 +87,3 @@ function App() {
 }
 
 export default App
-git branch -M main
-git remote add origin git remote add origin https://github.com/MiAry45/quotes-frontend.git
-git push -u origin main
