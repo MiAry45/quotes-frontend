@@ -22,7 +22,7 @@ function App() {
 
   async function fetchMood(mood) {
     setCurrentMood(mood)
-    const res = await fetch(`http://localhost:5000/random/${mood}`)
+    const res = await fetch(`https://quotes-backend-vnse.onrender.com/random/${mood}`)
     const data = await res.json()
     setQuotes(data.quote)
     setStories(data.story)
@@ -87,3 +87,6 @@ function App() {
 }
 
 export default App
+git branch -M main
+git remote add origin git remote add origin https://github.com/MiAry45/quotes-frontend.git
+git push -u origin main
